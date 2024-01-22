@@ -1,12 +1,12 @@
 {
-  "name": "4-navigator",
+  "name": "dz",
   "version": "1.0.0",
   "description": "",
-  "main": "navigator.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./navigator.js"
+    "start": "node ./4-navigator/navigator.js"
   },
-  "author": "",
+  "author": "Ivan",
   "license": "ISC"
 }
