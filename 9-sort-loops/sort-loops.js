@@ -7,7 +7,7 @@ countS = 0;
 // 1 вариант
 // Пузырьковая сортировка
 
-const Bubble = (arr) => {
+const bubble = (arr) => {
   for (let i = 0; i < arr.length; i++) {
     for (let j = 0; j < arr.length; j++) {
       if (arr[j + 1] < arr[j]) {
@@ -23,7 +23,7 @@ const Bubble = (arr) => {
 
 console.log("----------------------------------------------------------------");
 console.log("Пузырьковая сортировка =>\n");
-console.log(`Результат: [${Bubble(arr)}]\n`);
+console.log(`Результат: [${bubble(arr)}]\n`);
 console.log(`Время выполнения ${countB}ms`);
 console.log("----------------------------------------------------------------");
 
