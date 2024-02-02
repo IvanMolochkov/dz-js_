@@ -18,19 +18,11 @@ const crypto = (password, key) => {
     return res.join("");
 };
 
-const check = (checkPassword, key) => {
-    const cryptoParts = crypto(password, key).split("");
-    const res = [];
-    for (let i = 0; i < cryptoParts.length; i++) {
-        for (let j = 0; j < abc.length; j++) {
-            if (cryptoParts[i] == abc[j]) {
-                k = Math.floor((abc.length + key - j - 1) / abc.length);
-                res.push(abc[j - key + k * abc.length]);
-            };
-        };
-    };
-    return res.join("") === checkPassword ? true : false;
+const check = (checkPassword, password, key) => {
+    const cryptoCheckPassword = crypto(checkPassword, key);
+    const cryptoPassword = crypto(password, key);
+    return cryptoCheckPassword === cryptoPassword ? true : false;
 };
 
 console.log(crypto(password, key));
-console.log(check(checkPassword, key));
+console.log(check(checkPassword, password, key));
