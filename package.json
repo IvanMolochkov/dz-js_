@@ -13,7 +13,8 @@
     "9": "node ./9-sort-loops/sort-loops.js",
     "10": "node ./10-array-clean/array-clean.js",
     "11": "node ./11-date-array/date-array.js",
-    "12": "node ./12-luna/luna.js"
+    "12": "node ./12-luna/luna.js",
+    "13": "node ./13-query/query.js"
   },
   "author": "Ivan",
   "license": "ISC"
