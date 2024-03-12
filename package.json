@@ -14,7 +14,8 @@
     "10": "node ./10-array-clean/array-clean.js",
     "11": "node ./11-date-array/date-array.js",
     "12": "node ./12-luna/luna.js",
-    "13": "node ./13-query/query.js"
+    "13": "node ./13-query/query.js",
+    "15": "node ./15-task-object/task-object.js"
   },
   "author": "Ivan",
   "license": "ISC"
