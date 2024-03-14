@@ -5,7 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./4-navigator/navigator.js"
+    "4": "node ./4-navigator/navigator.js",
+    "5": "node ./5-languages/languages.js",
+    "6": "node ./6-driver/driver.js",
+    "7": "node ./7-converter/converter.js",
+    "8": "node ./8-crypto/crypto.js",
+    "9": "node ./9-sort-loops/sort-loops.js",
+    "10": "node ./10-array-clean/array-clean.js",
+    "11": "node ./11-date-array/date-array.js",
+    "12": "node ./12-luna/luna.js",
+    "13": "node ./13-query/query.js",
+    "15": "node ./15-task-object/task-object.js"
   },
   "author": "Ivan",
   "license": "ISC"
